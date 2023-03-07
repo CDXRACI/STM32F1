@@ -1,0 +1,6 @@
+Fct = Fclk/Fpsc
+=> Fpsc = Fclk/Fct
+=> Tck = 1/Fct
+=> CT is constant you want to delay in your project:
+If you want to creat delay 1s
+=> 1(s) = 1%(Fct/10^6)
