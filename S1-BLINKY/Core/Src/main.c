@@ -72,6 +72,11 @@ int main(void)
     HAL_Delay(1000);
     led_erasepin(GPIOA_ST,GPIOX_PIN_5);
     HAL_Delay(1000);
+
+    /*STM32F103RBT6
+    Vout = 3.3v
+    PORT = A.B.C.D.E.F
+    */
   }
   /* USER CODE END 3 */
 }

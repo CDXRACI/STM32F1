@@ -29,7 +29,7 @@ void Delay_ms_f(uint32_t count){
   uint64_t count_v = count;
   do{
    count_v--;
-  }while(count_v>0);
+  }while(count_v);
   }
 
 void HAL_GPIO_EXTI_IRQHandler1(uint16_t GPIO_Pin){
